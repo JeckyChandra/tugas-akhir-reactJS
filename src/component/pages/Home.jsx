@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   const [data, setData] = useState([]);
@@ -29,7 +30,7 @@ function Home() {
               <td>{db.title}</td>
               <td>{db.description}</td>
               <td>
-                <button>View</button>
+                <Link to={`/view/${db.id}`}>View</Link>
                 <button>Edit</button>
                 <button>Delete</button>
               </td>

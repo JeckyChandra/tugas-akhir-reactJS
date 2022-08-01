@@ -6,6 +6,13 @@
             "description":"This is todo list 1 description",
             "username":"Aditya",
             "email":"aditya@gmail.com"
+        },
+        {
+            "id":2,
+            "title":"To do list 2",
+            "description":"This is todo list 2 description",
+            "username":"Adityass",
+            "email":"adityssa@gmail.com"
         }
     ]
 }
