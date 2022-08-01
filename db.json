@@ -13,11 +13,6 @@
       "description": "This is todo list 2 description",
       "username": "Adityass",
       "email": "adityssa@gmail.com"
-    },
-    {
-      "title": "Title 3",
-      "description": "It is to do 3",
-      "id": 3
     }
   ]
 }

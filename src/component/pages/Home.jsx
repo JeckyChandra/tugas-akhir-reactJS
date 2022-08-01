@@ -1,16 +1,26 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Home() {
   const [data, setData] = useState([]);
+  const navigate = useNavigate();
 
-  useEffect(() => {
+  const loadData = () => {
     axios.get("http://localhost:3003/data").then((res) => {
       setData(res.data);
-      console.log(data);
     });
+  };
+
+  useEffect(() => {
+    loadData()
   }, []);
+
+  function Delete(id) {
+    axios.delete(`http://localhost:3003/data/${id}`).then(
+      loadData()
+    )
+  }
 
   return (
     <div>
@@ -32,7 +42,7 @@ function Home() {
               <td>
                 <Link to={`/view/${db.id}`}>View</Link>
                 <button>Edit</button>
-                <button>Delete</button>
+                <button onClick={()=>Delete(db.id)}>Delete</button>
               </td>
             </tr>
           ))}
