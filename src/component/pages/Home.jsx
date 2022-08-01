@@ -14,7 +14,7 @@ function Home() {
 
   useEffect(() => {
     loadData()
-  }, []);
+  }, [data]);
 
   function Delete(id) {
     axios.delete(`http://localhost:3003/data/${id}`).then(
