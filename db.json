@@ -1,0 +1,11 @@
+{
+    "data":[
+        {
+            "id":1,
+            "title":"To do list 1",
+            "description":"This is todo list 1 description",
+            "username":"Aditya",
+            "email":"aditya@gmail.com"
+        }
+    ]
+}
