@@ -41,7 +41,7 @@ function Home() {
               <td>{db.description}</td>
               <td>
                 <Link to={`/view/${db.id}`}>View</Link>
-                <button>Edit</button>
+                <Link to={`/edit/${db.id}`}>Edit</Link>
                 <button onClick={()=>Delete(db.id)}>Delete</button>
               </td>
             </tr>

@@ -9,6 +9,7 @@ import App from '../../App';
 import View from '../Form/View';
 import Input from '../Form/Input';
 import AddTodo from '../Form/Add';
+import EditTodo from '../Form/Edit';
 
 
 const RouterComponent = () => {
@@ -18,6 +19,7 @@ const RouterComponent = () => {
 				<Route path='/' element={ <App /> } />
 				<Route path='/input' element={ <Input /> } />
 				<Route path='/view/:id' element={ <View/> } />
+				<Route path='/edit/:id' element={ <EditTodo/> } />
 				<Route path='/add' element={ <AddTodo/> } />
 			</Routes>
 		</Router>
