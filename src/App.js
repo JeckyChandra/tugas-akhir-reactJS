@@ -1,11 +1,11 @@
 import Home from './component/pages/Home';
-import Input from './component/input-form/Input';
+import Input from './component/Form/Input';
 import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Link to="/input">Input</Link>
+      <Link to="/add">Add To Do</Link>
       <Home/>
     </div>
   );

@@ -1,18 +1,23 @@
 {
-    "data":[
-        {
-            "id":1,
-            "title":"To do list 1",
-            "description":"This is todo list 1 description",
-            "username":"Aditya",
-            "email":"aditya@gmail.com"
-        },
-        {
-            "id":2,
-            "title":"To do list 2",
-            "description":"This is todo list 2 description",
-            "username":"Adityass",
-            "email":"adityssa@gmail.com"
-        }
-    ]
+  "data": [
+    {
+      "id": 1,
+      "title": "To do list 1",
+      "description": "This is todo list 1 description",
+      "username": "Aditya",
+      "email": "aditya@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "To do list 2",
+      "description": "This is todo list 2 description",
+      "username": "Adityass",
+      "email": "adityssa@gmail.com"
+    },
+    {
+      "title": "Title 3",
+      "description": "It is to do 3",
+      "id": 3
+    }
+  ]
 }
