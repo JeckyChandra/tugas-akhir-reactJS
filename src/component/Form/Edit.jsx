@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
+import "../Styles/Styles.css";
 import axios from "axios";
 
 function EditTodo() {
@@ -28,22 +29,19 @@ function EditTodo() {
   }
 
   return (
-    <div>
-      <h1>Edit To Do</h1>
+    <div
+      className="container"
+    >
       <form>
+      <h1>Edit To Do</h1>
         <input
           type="text"
           placeholder="Enter Title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        <input
-          type="text"
-          placeholder="To do"
-          value={description}
-          onChange={(e) => setDesc(e.target.value)}
-        />
-        <button onClick={Update}>Edit To Do</button>
+        <textarea value={description} name="" id="" cols="30" rows="10" onChange={(e) => setDesc(e.target.value)}></textarea>
+        <button className="ButtonClass" onClick={Update}>Edit To Do</button>
       </form>
     </div>
   );

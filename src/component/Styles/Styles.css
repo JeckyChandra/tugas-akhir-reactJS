@@ -1,0 +1,206 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-family: "Tahoma";
+  font-size: 13px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  word-break: break-word;
+  resize: none;
+}
+
+.ButtonClass {
+  width: 100%;
+  background-color: #008cff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* App CSS */
+.leftMenu {
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  float: left;
+  height: 100vh;
+  box-shadow: 2px 0px 3px rgb(187, 187, 187);
+}
+
+.warp {
+  width: 250px;
+}
+
+.dunno {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  /* background-color: #008cff; */
+  height: 90vh;
+  margin-bottom: 200px;
+}
+
+.loginOutWarp {
+  display: flex;
+  padding-right: 10px;
+}
+
+.addButton {
+  background-color: rgb(147, 224, 255);
+  text-align: center;
+  border-radius: 10px 10px;
+  padding: 5px;
+}
+
+.Link {
+  text-decoration: none;
+  font-size: larger;
+}
+
+.Link:visited {
+  color: black;
+}
+
+/* Table design */
+table {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+thead tr {
+  margin-top: 10px;
+  background-color: #bebebe;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+/* thead tr th {
+  border: 1px solid grey;
+} */
+
+tr {
+  border-radius: 3px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+tbody tr {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+/* tbody tr td {
+  border: 1px solid grey;
+} */
+
+.th-1 {
+  text-align: left;
+  flex-basis: 10%;
+}
+.th-2 {
+  flex-basis: 25%;
+}
+.th-3 {
+  flex-basis: 45%;
+}
+.th-4 {
+  flex-basis: 20%;
+}
+
+.td-1 {
+  flex-basis: 10%;
+}
+.td-2 {
+  flex-basis: 25%;
+}
+.td-3 {
+  flex-basis: 45%;
+}
+
+.td-4 {
+  flex-basis: 20%;
+}
+
+.td-4 button {
+  margin: 0px 5px 0px 10px;
+  border: none;
+  border-radius: 10px 10px;
+  padding: 5px;
+}
+.view{
+  background-color: rgb(123, 227, 128);
+}
+.edit {
+    background-color: rgb(120, 212, 255);
+
+}
+.delete {
+    background-color: rgb(255, 98, 98);
+
+}
+
+.Link {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* View page */
+.viewContainer{
+    background-color: white;
+    border-radius: 25px 25px;
+    padding: 100px 100px 100px 30px;
+}
+
+/* search button */
+.btnSearch{
+    border: none;
+    margin: 8px 1px 8px 5px;
+    width: 100px;
+}
+
+.txtSearch{
+    border: none;
+    padding-right: 100px;
+}

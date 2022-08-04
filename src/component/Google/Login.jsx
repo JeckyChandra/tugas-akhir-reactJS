@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import {GoogleLogin} from "react-google-login";
 
 const clientId = "917213100430-9jbaipelpc3o6jniiadc07ek863fl5g4.apps.googleusercontent.com";
